@@ -1,0 +1,35 @@
+{
+    "books": [
+        {
+            "name": "Java Programming",
+            "topics": [
+                "loops",
+                "data structure",
+                "interface"
+            ],
+            "problems": [
+                "Fibonacci problem",
+                "Bracket challenge",
+                "Word reverse",
+                "Find the word",
+                "Armstrong numbers"
+            ]
+        },
+        {
+            "name": "javascript programming",
+            "topics": [
+                "syntax",
+                "class and objects",
+                "loops",
+                "data structure"
+            ],
+            "problems": [
+                "Fibonnacci problem",
+                "Bracket challenge",
+                "Word reverse",
+                "Find the word",
+                "Armstrong numbers"
+            ]
+        }
+    ]
+}
