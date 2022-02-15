@@ -35,8 +35,8 @@ app.get('/books/details/:bookName', (req,res)=>{
                 if(dataObj.books[i].name == bookName){
                         top.push(dataObj.books[i].topics)
                         topics = dataObj.books[i].topics;
-                        steps = dataObj.books[i].problems.length;
-                        finalData={details:{topics:topics,numSteps:steps}};
+                        prob = dataObj.books[i].problems.length;
+                        finalData={details:{topics:topics,numProblems:prob}};
                 } else{
                     finalData = JSON.parse(JSON.stringify({}))
                 }

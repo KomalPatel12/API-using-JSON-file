@@ -1,7 +1,7 @@
 {
     "books": [
         {
-            "name": "Java Programming",
+            "name": "Java",
             "topics": [
                 "loops",
                 "data structure",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "name": "javascript programming",
+            "name": "javascript",
             "topics": [
                 "syntax",
                 "class and objects",
@@ -29,6 +29,28 @@
                 "Word reverse",
                 "Find the word",
                 "Armstrong numbers"
+            ]
+        },
+        {
+            "name": "SQL",
+            "topics": [
+                "Indexes",
+                "Views"
+            ],
+            "problems": [
+                "Create Index on SSN field",
+                "Create View on table1"
+            ]
+        },
+        {
+            "name": "SQL",
+            "topics": [
+                "Stored procedure",
+                "Triggers"
+            ],
+            "problems": [
+                "Create SP",
+                "Create Trigger"
             ]
         }
     ]
